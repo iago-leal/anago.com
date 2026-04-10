@@ -1,0 +1,21 @@
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Dados locais (grandes/privados)
+data/raw/
+*.csv.gz
+*.parquet
+
+# Ambiente de IDEs
+.vscode/
+.idea/
+.DS_Store
